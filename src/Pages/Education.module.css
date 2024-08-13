@@ -1,0 +1,91 @@
+
+
+.education{
+
+    justify-content: space-between;
+    width:50%;
+    
+    min-width: 450px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: solid lightgray;
+
+    backdrop-filter: blur(20px); 
+    background-image:linear-gradient( 140deg, rgba(245, 245, 245, 0.3), rgba(225, 225, 225, 0.4) ); 
+  
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top:6rem;  
+
+}
+
+.educationSub{
+    display: flex;
+    gap:2rem;
+    padding: 2rem 0 ;
+    margin-top: 3rem;
+}
+
+.monashImage img{
+    width: 100%;
+    max-height: 270px;
+    border-radius: 25px;
+    transition: transform 0.7s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.monashImage img:hover{
+  
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+
+}
+.monashImage{
+    flex:1;
+}
+
+.title{
+    flex:0.7;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.major{
+    color: gray;
+}
+
+.educationTitle{
+    font-size:0.8rem;
+    color: darkgray;
+}
+
+.title h1{
+    padding: 0;
+    margin: 0;
+}
+
+
+.title h1{
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+.title h1:hover{
+    transform: scale(1.1); /* Scale image up by 10% */
+
+    font-weight: bold;
+
+
+}
+
+.title .year{
+    color: darkgray
+}
+
+@media(max-width:1200px){
+    .educationSub{
+        flex-direction: column;
+    }
+}
+

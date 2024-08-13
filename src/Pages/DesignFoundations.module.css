@@ -1,0 +1,72 @@
+.designFoundations{
+    width: 50%;
+    padding:2rem;
+   
+    /* border-radius: 25px; */
+ 
+    min-width: 450px;
+    border-bottom: solid lightgray;
+    margin-top: 6rem;
+    margin-bottom:2rem;
+
+    backdrop-filter: blur(20px); 
+    background-image:linear-gradient( 140deg, rgba(245, 245, 245, 0.3), rgba(225, 225, 225, 0.4) ); 
+  
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    
+}
+
+.dFTitle{
+    font-size:0.8rem;
+    color: darkgray;
+   
+}
+
+.content{
+    display: flex;
+    gap:3rem;
+  
+  
+    
+}
+
+.content p{
+    color: #383838;
+}
+
+.content h2{
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+.content h2:hover{
+    transform: scale(1.1); 
+    font-weight: bold;
+}
+
+.greatTaste{
+    flex:1
+}
+
+.aesthetic{
+    flex:1
+
+}
+
+ h1{
+    width: 50%;
+    padding: 2rem 0 ;
+    font-size: 2.5rem; 
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+.designFoundations h1:hover{
+    transform: scale(1.1); /* Scale image up by 10% */
+ 
+    font-weight: bold;
+
+
+}

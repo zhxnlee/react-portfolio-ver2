@@ -1,0 +1,190 @@
+
+.skills{
+
+    width: 50%;
+    padding: 0 2rem 2rem 2rem;
+   
+    /* border-radius: 25px; */
+ 
+    min-width: 450px;
+    border-bottom: solid lightgray;
+    
+    margin-bottom:2rem;
+    
+  
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 6rem;
+    
+  
+
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0; 
+    margin: 0; 
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    padding-top:2rem;
+}
+
+.skills li {
+    padding: 1rem 1rem;
+    /* background-color: white;
+    border-radius: 15px;
+    border: solid lightgray; */
+    font-size: clamp(1rem, 1.1vw, 1rem);
+}
+
+.htmlLi, .cssLi, .jsLi, .reactLi, .expLi {
+    position: relative;
+    padding-bottom: 4px; /* Ensure there's space for the border */
+    transition: transform 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+ 
+
+  
+}
+
+/* HTML - Orange */
+.htmlLi::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: orange; 
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateX(-50%);
+  
+}
+
+.htmlLi:hover::after {
+    width: 100%;
+}
+
+.htmlLi:hover{
+    transform: translateY(-10px) scale(1.1);
+    font-weight: bold;
+}
+
+
+
+
+/* CSS - Blue */
+.cssLi::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: blue; 
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.cssLi:hover::after {
+    width: 100%;
+}
+
+.cssLi:hover{
+    transform: translateY(-10px) scale(1.1);
+    font-weight: bold;
+}
+
+/* JavaScript - Yellow */
+.jsLi::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.jsLi:hover::after {
+    width: 100%;
+}
+
+.jsLi:hover{
+    transform: translateY(-10px) scale(1.1);
+    font-weight: bold;
+}
+
+/* React - Cyan */
+.reactLi::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: cyan; 
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.reactLi:hover::after {
+    width: 100%;
+}
+
+.reactLi:hover{
+    transform: translateY(-10px) scale(1.1);
+    font-weight: bold;
+}
+
+/* Express - Green */
+.expLi::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: green; 
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateX(-50%);
+   
+}
+
+.expLi:hover::after {
+    width: 100%;
+    
+ 
+}
+
+.expLi:hover{
+    transform: translateY(-10px) scale(1.1);
+    font-weight: bold;
+   
+}
+
+
+
+
+.skillsTitle{
+    font-size:0.8rem;
+    color: darkgray;
+ 
+   
+}
+
+@media(max-width: 600px){
+    .skills ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .skills li{
+        font-size: clamp(1rem, 1.2vw, 1rem);
+    }
+}

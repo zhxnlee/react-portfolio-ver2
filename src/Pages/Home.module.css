@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5rem;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensure that the section takes the full width */
+    padding: 2rem 0; /* Add some padding if needed */
+}
+
+.section > div {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

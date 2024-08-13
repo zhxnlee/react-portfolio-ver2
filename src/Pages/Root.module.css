@@ -1,0 +1,21 @@
+.navigation{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+    
+}
+
+.taskbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.root{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}

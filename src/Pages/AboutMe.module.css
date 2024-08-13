@@ -1,0 +1,51 @@
+
+.aboutMe{
+
+    width: 50%;
+    padding: 0 2rem 2rem 2rem;
+   
+    /* border-radius: 25px; */
+ 
+    min-width: 450px;
+    border-bottom: solid lightgray;
+    
+
+    
+    backdrop-filter: blur(20px); 
+    background-image:linear-gradient( 140deg, rgba(245, 245, 245, 0.3), rgba(225, 225, 225, 0.4) ); 
+  
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top:8rem;
+    
+  
+
+}
+
+.aboutMeContent{
+    color: #282828;
+    padding: 1rem 0 ;
+}
+
+.aboutMeContent h1{
+    font-size: 3rem; 
+    width: 60%;
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+
+
+.aboutMeContent h1:hover{
+    transform: scale(1.1); /* Scale image up by 10% */
+
+    font-weight: bold;
+
+
+}
+
+
+.aboutMeTitle{
+    font-size:0.8rem;
+    color: darkgray;
+}
