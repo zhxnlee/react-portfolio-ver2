@@ -20,9 +20,25 @@
 
     padding: 0 1rem;
     border-radius: 50px;
-  
+    animation: floatIn 2s ease;
+
+
+}
+
+@keyframes floatIn {
+    from{
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
     
 }
+
+
 
 .navigationList ul{
     display: flex;

@@ -38,6 +38,20 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    animation: floatIn 2s ease;
+}
+
+
+
+@keyframes floatIn{
+    from{
+        transform: translateX(-40px);
+        opacity:0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .name{
@@ -71,7 +85,20 @@
   
     justify-content: center;
     height: 100%;
+    animation: floatInRight 2s ease;
+
   
+}
+
+@keyframes floatInRight{
+    from{
+        transform: translateX(40px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .photo img{
@@ -85,6 +112,7 @@
 .introductionTitle{
     font-size:0.8rem;
     color: darkgray;
+    animation: floatIn 2s ease;
 }
 
 .position{
