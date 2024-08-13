@@ -47,7 +47,7 @@ function App() {
 
  
   const router = createBrowserRouter([
-    { path: "/", element: <Root /> }
+    { path: "/react-portfolio-ver2/", element: <Root /> }
   ]);
 
   return (
