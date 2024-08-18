@@ -4,7 +4,7 @@
    
     /* border-radius: 25px; */
  
-    min-width: 450px;
+    min-width: 300px;
     border-bottom: solid lightgray;
     margin-top: 5rem;
 
@@ -148,4 +148,17 @@
 
 .nameContent span:hover{
     opacity:1;
+}
+
+@media (max-width: 500px){
+    .title{
+        flex-direction: column;
+    }
+
+    .nameSection{
+        align-items: center;
+    }
+    .introduction{
+        margin-top: 1rem;
+    }
 }

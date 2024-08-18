@@ -4,7 +4,7 @@
    
     /* border-radius: 25px; */
  
-    min-width: 450px;
+    min-width: 300px;
     border-bottom: solid lightgray;
     margin-top: 6rem;
     margin-bottom:2rem;
@@ -69,4 +69,10 @@
     font-weight: bold;
 
 
+}
+
+@media (max-width: 500px){
+    .content{
+        flex-direction: column;
+    }
 }
